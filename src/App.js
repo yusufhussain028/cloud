@@ -8,8 +8,8 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <Route exact path='/*' component={MediaCard}/>
-    <Route path='/userInfo/*' component={UserInfo}/>
+    <Route exact path='/cloud' component={MediaCard}/>
+    <Route path='/userInfo' component={UserInfo}/>
     </BrowserRouter>
     </>
   );
