@@ -68,7 +68,7 @@ userData();
                         <div className="frontside">
                             <div className="card">
                                 <div className="card-body text-center">
-                                   <Link to={{pathname:'/userInfo',
+                                   <Link to={{pathname:'/userInfo/*',
                                     userId:usr.id}}>
                                     <p><img className=" img-fluid" src={usr.avatar}/></p>
                                     <h4 className="card-title">{usr.email}</h4>

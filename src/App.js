@@ -9,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
     <Route exact path='/cloud' component={MediaCard}/>
-    <Route path='/userInfo' component={UserInfo}/>
+    <Route path='/userInfo/*' component={UserInfo}/>
     </BrowserRouter>
     </>
   );
