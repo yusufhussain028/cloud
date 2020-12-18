@@ -7,7 +7,7 @@ import Dropdwn from './dropdwn.jsx';
 function App() {
   return (
     <>
-    <Dropdwn/>
+    <MediaCard/>
     <BrowserRouter>
     <Route exact path='/' component={MediaCard}/>
     <Route path='/userInfo' component={UserInfo}/>

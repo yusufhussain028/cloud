@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Backdrop from '@material-ui/core/Backdrop';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import { makeStyles } from '@material-ui/core/styles';
-
+import  Dropdwn from './dropdwn.jsx';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -46,7 +46,9 @@ userData();
 
   return (
   <>
-  
+  <div style={{float:'right'}}>
+   <Dropdwn/>  
+   </div>
 
 {post?post: <Backdrop className={classes.backdrop} open>
         <CircularProgress color="inherit" />
